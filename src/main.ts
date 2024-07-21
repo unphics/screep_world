@@ -25,8 +25,7 @@ export const loop = ErrorMapper.wrapLoop(() => {
 		dt = (Memory as any).data
 	}
 
-	console.log("len", Memory.creeps.length, )
-	if (!Memory.creeps.length || Memory.creeps.length == 0) {
+	if (!(Object.keys(Memory.creeps).length > 0)) {
 		console.log("房间刚创建, 需要一个未分化的爬爬")
 		let spawn = Game.spawns[dt.rooms[0].name]
 		if (spawn.spawnCreep([WORK, CARRY, MOVE], "Anaplastic", {memory: {role: "anaplastic"}}) != 0) {
