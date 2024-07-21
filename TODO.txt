@@ -1,0 +1,26 @@
+4 corner room mineral miner
+make spawn more carry based on if the carry function made the full amount of parts
+
+
+--SQUAD QUAD--
+cache quad squad movement inside target room if position is unchanged or after x ticks
+add same quad inter room pathing trick when turning corner of room to make more efficient movement
+make quads bounce if too much damage
+quads smarter and kill structs in range 2 of enemy ramparts potentially.
+
+:thinking: make a kind of raider role that walks around different rooms triggering a costly response but only committing as long as the response is not there
+make ram smarter by retreating on lower hits and or tower damage too high - wait to drain tower first.
+
+make roles like the priest request and use observer!
+
+clean up rooms.ts
+
+add remote rooms preference based on distance to sources
+
+min cut
+
+
+add carrier energy request system
+
+
+PREHEAL quad on contact with attack enemy creep
